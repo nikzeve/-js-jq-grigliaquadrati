@@ -15,9 +15,13 @@
 
 // 2 soluzione
 //
-// var numero_random = 0;
-//
-// $('.quadrato').each(function() {
-//     numero_random = Math.floor(Math.random() * 11);
-//     $(this).text(numero_random);
-// })
+for (var i = 0; i < 25; i++) {
+    $('#griglia').append('<div class="quadrato"></div>')
+}
+
+var numero_random = 0;
+
+$('.quadrato').each(function() {
+    numero_random = Math.floor(Math.random() * 11);
+    $(this).text(numero_random);
+})
