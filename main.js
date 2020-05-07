@@ -12,3 +12,12 @@
 //     numero_random = Math.floor(Math.random() * 11);
 //     $(quadrato[i]).text(numero_random);
 // }
+
+// 2 soluzione
+//
+// var numero_random = 0;
+//
+// $('.quadrato').each(function() {
+//     numero_random = Math.floor(Math.random() * 11);
+//     $(this).text(numero_random);
+// })
